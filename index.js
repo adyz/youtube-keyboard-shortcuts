@@ -70,7 +70,7 @@ globalShortcut.register('MediaPlayPause', function() {
 globalShortcut.register('MediaPreviousTrack', function() {
 	var prevItem = document.getElementsByClassName("ytp-button ytp-prev-button");
 	console.log('MediaPreviousTrack');
-	if(prevIte > 0) {
+	if(prevItem > 0) {
 		simulate(prevItem[0], "click");
 	} else {
 		alert('Nothing back...');
