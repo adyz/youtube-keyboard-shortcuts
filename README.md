@@ -1,6 +1,8 @@
 # youtube-keyboard-shortcuts
 Youtube websites with multimedia keyboard shortcuts
 
+![Dock Screenshot](https://raw.githubusercontent.com/adyz/youtube-keyboard-shortcuts/master/Screen.Shot.2016-02-25.at.5.08.54.PM.png)
+
 
 Built with a great deal of help from https://github.com/jiahaog/nativefier
 
