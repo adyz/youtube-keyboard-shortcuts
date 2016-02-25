@@ -1,7 +1,7 @@
 # Youtube desktop app with multimedia keyboard shortcuts
 
-Wanna be able to listen to Youtube playlists without switching to your browser tab?
-Do you want to skip a song with your keyboard shortcuts?
+Do you want to be able to listen to Youtube playlists without switching to your browser tab?
+Want to skip a song with your keyboard shortcuts?
 
 I do, and I’ve created an electron wrapper to help me with this problem.
 
