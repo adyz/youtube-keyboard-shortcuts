@@ -21,3 +21,6 @@ $ git clone https://github.com/adyz/youtube-keyboard-shortcuts
 $ nativefier http://youtube.com --inject ./index.js ~/Desktop --overwrite
 ```
 where `index.js` is the file you you will find on this repo.
+
+
+After this all you need to do is login and enjoy listening to your cool youtube playlists as I do
