@@ -1,5 +1,9 @@
-# youtube-keyboard-shortcuts
-Youtube websites with multimedia keyboard shortcuts
+# Youtube desktop app with multimedia keyboard shortcuts
+
+Wanna be able to listen to your Youtube playlists or other playlists without switching your browser tab?
+Do you want to skip a Youtube song with your keyboard shortcuts?
+
+I do, and I’ve created an electron wrapper to help me with this problem.
 
 ![Dock Screenshot](https://raw.githubusercontent.com/adyz/youtube-keyboard-shortcuts/master/Screen.Shot.2016-02-25.at.5.08.54.PM.png)
 
