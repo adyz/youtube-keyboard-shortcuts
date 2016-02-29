@@ -60,12 +60,14 @@ var defaultOptions = {
 var remote = require('remote');
 var globalShortcut = remote.require('global-shortcut');
 
+//Unregister events (Fixes error if html is refreshed)
+globalShortcut.unregisterAll();
 
+//Register keyboard events
 globalShortcut.register('MediaPlayPause', function() { 
 	console.log('MediaPlayPause');
 	simulate(document.getElementsByClassName("ytp-button ytp-play-button")[0], "click");
 });
-
 
 globalShortcut.register('MediaPreviousTrack', function() {
 	var prevItem = document.getElementsByClassName("ytp-button ytp-prev-button");
@@ -76,7 +78,6 @@ globalShortcut.register('MediaPreviousTrack', function() {
 		alert('Nothing back...');
 	}
 });
-
 
 globalShortcut.register('MediaNextTrack', function() {
   	console.log('MediaNextTrack');
