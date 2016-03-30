@@ -56,18 +56,13 @@ var defaultOptions = {
  * This is where all the magic happends
  * Event handling
  */ 
-const myapp = require('electron').app;
+
 var remote = require('remote');
 var globalShortcut = remote.require('global-shortcut');
 
 //Unregister events (Fixes error if html is refreshed)
 globalShortcut.unregisterAll();
 
-//Unregister events on app close
-myapp.on('quit', function() {
-  console.log('Bye Bye');
-  globalShortcut.unregisterAll();
-});
 
 //Register keyboard events
 globalShortcut.register('MediaPlayPause', function() { 
