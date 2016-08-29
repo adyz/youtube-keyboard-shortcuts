@@ -57,8 +57,8 @@ var defaultOptions = {
  * Event handling
  */ 
 
-var remote = require('remote');
-var globalShortcut = remote.require('global-shortcut');
+var remote = require('electron').remote;
+var globalShortcut = remote.globalShortcut;
 
 //Unregister events (Fixes error if html is refreshed)
 globalShortcut.unregisterAll();
